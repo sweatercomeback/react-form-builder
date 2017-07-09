@@ -1,0 +1,34 @@
+{
+    "fields": [
+        {
+            "type": "text",
+            "key": "firstname",
+            "order": 1,
+            "label": "First Name",
+            "required": false
+        },
+        {
+            "type": "select",
+            "key": "salutation",
+            "order": 0,
+            "label": "Salutation",
+            "required": false,
+            "options": [
+                {"text": "-- Select --",
+                "value": ""},
+                {"text": "Mr.",
+                "value": "Mr"},
+                {"text": "Mrs.",
+                "value": "Mrs"},
+                {"text": "Ms.",
+                "value": "Ms"}
+            ]
+        },{
+            "type": "text",
+            "key": "lastname",
+            "order": 2,
+            "label": "Last Name",
+            "required": false
+        }
+    ]
+}
